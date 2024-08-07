@@ -1,4 +1,4 @@
-import styles from "./Hero.modules.scss";
+import styles from "./Hero.module.scss";
 import { Button } from "../common/Button";
 import { CiSearch } from "react-icons/ci";
 import { SearchInput } from "../common/SearchInput";
