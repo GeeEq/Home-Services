@@ -1,7 +1,9 @@
-import React from "react";
+import styles from "./SearchInput.module.scss";
 
-const SearchInput = () => {
-  return <div></div>;
+const SearchInput = ({ ...props }) => {
+  return (
+    <input className={styles.searchInput} placeholder="Search" {...props} />
+  );
 };
 
 export default SearchInput;
