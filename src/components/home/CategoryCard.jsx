@@ -2,6 +2,11 @@ import PropTypes from "prop-types";
 import styles from "./CategoryList.module.scss";
 
 export default function CategoryCard({ category }) {
+  if (!category) {
+    console.error("Category is undefined or null in CategoryCard");
+    return null;
+  }
+
   const { name, icon: Icon, color } = category;
 
   return (
