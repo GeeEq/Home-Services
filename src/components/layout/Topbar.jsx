@@ -1,7 +1,7 @@
 import Button from "../common/Button";
 import styles from "./topbar.module.scss";
 
-export function Topbar() {
+export default function Topbar() {
   const links = [
     { href: "#", label: "Home" },
     { href: "#", label: "Services" },
