@@ -1,7 +1,13 @@
-import React from "react";
+import styles from "./CategoryList.module.scss";
 
-const CategoryCard = () => {
-  return <div></div>;
-};
+export default function CategoryCard({ category }) {
+  const { name, icon } = category;
+  const Icon = icon;
 
-export default CategoryCard;
+  return (
+    <div className={styles.card}>
+      <Icon fontSize={48} color={category.color} />
+      <p className={styles.name}>{name}</p>
+    </div>
+  );
+}
