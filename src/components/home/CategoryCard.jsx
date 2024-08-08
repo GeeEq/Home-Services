@@ -11,7 +11,7 @@ export default function CategoryCard({ category }) {
 
   return (
     <div className={styles.card}>
-      <Icon fontSize={48} color={color} />
+      <Icon fontSize={40} color={color} className={styles.iconAlign} />
       <p className={styles.name}>{name}</p>
     </div>
   );

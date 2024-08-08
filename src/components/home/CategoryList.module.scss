@@ -7,7 +7,7 @@
 }
 
 .card {
-  width: 160px;
+  width: 128px;
   height: 120px;
   display: flex;
   flex-direction: column;
@@ -22,8 +22,11 @@
     text-transform: capitalize;
     color: #9977ef;
     font-weight: 500;
+    // padding: ;
   }
-
+  .iconAlign {
+    margin-top: 1.2rem;
+  }
   &:hover {
     background-color: #f7f4fd;
     transition: 300ms;
